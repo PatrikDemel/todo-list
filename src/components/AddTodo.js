@@ -13,13 +13,15 @@ export default function AddTodo() {
 
   return (
     <div className="flex flex-col items-center mt-10">
-      <form className="w-6/12 flex justify-center" onSubmit={handleSubmit}>
+      <form
+        className="w-9/12 flex flex-col justify-center md:flex-row md:w-2/3 lg:w-2/5"
+        onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="My new todo..."
           required
           maxLength="50"
-          className="p-3 w-2/5 me-6 bg-gray-100 outline-teal-500 rounded-md"
+          className="p-3 w-full md:w-2/5 lg:1/2 mb-5 md:mb-0 me-6 bg-gray-100 outline-teal-500 rounded-md"
         />
         <button
           type="submit"

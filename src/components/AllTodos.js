@@ -11,8 +11,8 @@ export default function AllTodos() {
   };
 
   return (
-    <div className="w-2/5 mx-auto mt-14">
-      <h2 className="font-extrabold text-3xl font-gothic tracking-wide">
+    <div className="w-10/12 md:w-2/5 mx-auto mt-14">
+      <h2 className="font-extrabold text-3xl font-gothic tracking-wide text-center md:text-start">
         My todos:
       </h2>
       <div className="flex flex-col mt-2">
